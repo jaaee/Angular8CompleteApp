@@ -1,0 +1,29 @@
+<h2>{{title}}</h2>
+<button [routerLink]="['/new']">Add New Order</button>
+<table border=1>
+    <tr>
+        <th>
+
+            Order Id</th>
+        <th>Product</th>
+        <th>Quantity</th>
+
+        <th>Item Price</th>
+    </tr>
+
+    <tr *ngFor='let ord of orders | arraySorter:"id"'>
+        <td>{{ord.id}}</td>
+        <td>{{ord.productName}}</td>
+        <td>{{ord.quantity}}</td>
+        <td align='right'>{{ord.unitPrice | currency:"INR"}}</td>
+
+    </tr>
+
+    <tr *ngIf="!orders || !orders.length">
+        <td colspan="5">No Orders Found</td>
+
+    </tr>
+
+
+    <a href="/customers">Back to Customers</a>
+</table>

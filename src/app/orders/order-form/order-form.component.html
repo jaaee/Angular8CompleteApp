@@ -1,0 +1,27 @@
+<p>order-form works!</p>
+
+<div>
+    <form [formGroup]="orderForm" (ngSumbit)="submitOrder()">
+<p>
+    <input type="text" placeholder="id" formControlName="id" />
+</p>
+
+<p>
+    <input type="customerId" placeholder="customerId" formControlName="customerId" />
+</p>
+
+<p>
+    <input type="productName" placeholder="productName" formControlName="productName" />
+</p>
+
+<p>
+    <input type="quantity" placeholder="quantity" formControlName="quantity" />
+</p>
+
+<p>
+    <input type="unitPrice" placeholder="unitPrice" formControlName="unitPrice" />
+</p>
+
+<button (click)='submitOrder()'>Add New Order</button>
+    </form>
+</div>

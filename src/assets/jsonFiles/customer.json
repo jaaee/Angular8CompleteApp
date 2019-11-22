@@ -1,0 +1,10 @@
+[
+    { "id":206,"name":"Donald Trump", "city":"Seattle", "orderTotal":237.32,"customerSince":"12-JAN-2018"},
+    { "id":202,"name":"Justin RS", "city":"Montreal", "orderTotal":737.32,"customerSince":"12-JAN-2018"},
+    { "id":203,"name":"Angela SR", "city":"Berlin", "orderTotal":937.32,"customerSince":"12-JAN-2018"},
+    { "id":204,"name":"Modi KM", "city":"New Delhi", "orderTotal":137.32,"customerSince":"12-JAN-2018"},
+    { "id":205,"name":"Rajapeksha MN", "city":"Colombi", "orderTotal":437.32,"customerSince":"12-JAN-2018"},
+    { "id":201,"name":"Khan Jl", "city":"Peshwar", "orderTotal":837.32,"customerSince":"12-JAN-2018"}
+
+
+]

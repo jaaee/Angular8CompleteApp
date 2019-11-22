@@ -1,0 +1,10 @@
+<p>customer-form works!</p>
+{{diagnostics}}
+
+<div>
+    Name: <input  type="string" [(ngModel)]="model.name"> 
+    City: <input  type="string" [(ngModel)]="model.city"> 
+    CustomerSince: <input  type="date" [(ngModel)]="model.customerSince"> 
+    Order Total: <input  type="number" [(ngModel)]="model.orderTotal"> 
+    <button (click)=" submitForm()">Add Customer</button>
+</div>
